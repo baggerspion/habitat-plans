@@ -30,7 +30,7 @@ pkg_bin_dirs=(bin sbin)
 pkg_lib_dirs=(lib)
 pkg_include_dirs=(include)
 pkg_interpreters=(bin/php)
-pkg_exports=([port]=fpm.port)
+pkg_exports=([port]=www.port)
 pkg_svc_run="php-fpm -y $pkg_svc_config_path/php-fpm.conf"
 
 do_build() {
