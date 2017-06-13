@@ -1,0 +1,11 @@
+[fpm]
+daemonize = "no"
+ert = 0
+eri = 0
+pct = 0
+
+[www]
+bind = "0.0.0.0"
+port = 9000
+pm = "ondemand"
+max_children = 4
