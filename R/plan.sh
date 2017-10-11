@@ -17,8 +17,8 @@ pkg_build_deps=(
   core/texinfo
 )
 pkg_deps=(
+  baggerspion/cairo
   core/bzip2
-  core/cairo
   core/curl
   core/gcc
   core/harfbuzz
