@@ -25,9 +25,11 @@ pkg_deps=(
   xorg/libpthread-stubs/0.4/20170607233627
   xorg/libxrender/0.9.10/20170607234342
   xorg/libxcb/1.12/20170607233918
+  xorg/libxext/1.3.3/20170607234437
   xorg/renderproto/0.11.1/20170607233728
   xorg/xcb-proto/1.12/20170607233734
   xorg/xlib/1.6.5/20170607234030
+  xorg/xextproto/7.3.0/20170607233708
   xorg/xproto/7.0.31/20170607233653
 )
 pkg_build_deps=(
