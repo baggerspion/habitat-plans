@@ -18,7 +18,7 @@ pkg_build_deps=(
 )
 pkg_deps=(
   baggerspion/cairo/1.15.8/20171015104614  
-  baggerspion/tcl/8.6.7/2017101512425
+  baggerspion/tcl/8.6.7/20171015124251
   core/bzip2
   core/curl
   core/gcc
