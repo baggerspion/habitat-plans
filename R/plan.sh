@@ -35,6 +35,7 @@ pkg_deps=(
   core/pcre
   core/pixman
   core/readline
+  core/tcl
   core/xz
   core/zlib
   xorg/kbproto/1.0.7/20170607233756
