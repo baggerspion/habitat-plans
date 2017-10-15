@@ -19,6 +19,7 @@ pkg_build_deps=(
 pkg_deps=(
   baggerspion/cairo/1.15.8/20171015104614  
   baggerspion/tcl/8.6.7/20171015124251
+  baggerspion/tk/8.6.7/20171015141639
   core/bzip2
   core/curl
   core/gcc
@@ -69,6 +70,8 @@ do_prepare() {
 do_build() {
     ./configure --prefix="${pkg_prefix}" \
 		--with-x=yes \
+                --with-tcl-config=$(pkg_path_for baggerspion/tcl/8.6.7/20171015124251)/lib/tclConfig.sh \
+		--with-tk-config=$(pkg_path_for baggerspion/tk/8.6.7/20171015141639)/lib/tkConfig.sh \
                 --disable-java \
 	        --enable-memory-profiling
     make
