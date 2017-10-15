@@ -17,7 +17,7 @@ pkg_build_deps=(
   core/texinfo
 )
 pkg_deps=(
-  baggerspion/cairo/1.15.8/20171011134916
+  baggerspion/cairo/1.15.8/20171015104614  
   core/bzip2
   core/curl
   core/gcc
