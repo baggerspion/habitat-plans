@@ -18,6 +18,7 @@ pkg_build_deps=(
 )
 pkg_deps=(
   baggerspion/cairo/1.15.8/20171015104614  
+  baggerspion/tcl/8.6.7/2017101512425
   core/bzip2
   core/curl
   core/gcc
@@ -35,7 +36,6 @@ pkg_deps=(
   core/pcre
   core/pixman
   core/readline
-  core/tcl
   core/xz
   core/zlib
   xorg/kbproto/1.0.7/20170607233756
