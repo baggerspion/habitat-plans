@@ -45,6 +45,7 @@ pkg_deps=(
   xorg/libXt/1.1.5/20170607234359
   xorg/libxcb/1.12/20170607233918
   xorg/libxext/1.3.3/20170607234437
+  xorg/libxmu/1.1.2/20170607234455
   xorg/libxrender/0.9.10/20170607234342
   xorg/libpthread-stubs/0.4/20170607233627
   xorg/renderproto/0.11.1/20170607233728
