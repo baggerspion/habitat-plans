@@ -71,9 +71,9 @@ do_build() {
     ./configure --prefix="${pkg_prefix}" \
 		--with-x \
                 --with-tcl-config=$(pkg_path_for baggerspion/tcl/8.6.7/20171015124251)/lib/tclConfig.sh \
-		--with-tk-config=$(pkg_path_for baggerspion/tk/8.6.7/20171015141639)/lib/tkConfig.sh \
+                --with-tk-config=$(pkg_path_for baggerspion/tk/8.6.7/20171015141639)/lib/tkConfig.sh \
                 --disable-java \
-	        --enable-memory-profiling
+                --enable-memory-profiling
     make
 }
 
