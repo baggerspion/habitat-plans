@@ -50,7 +50,7 @@ do_build() {
   CFLAGS="-Os ${CFLAGS}"
 
   ./configure --prefix="${pkg_prefix}" \
-              --with-x=yes
+              --with-x
   make
 }
 
