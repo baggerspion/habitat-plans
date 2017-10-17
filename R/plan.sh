@@ -17,7 +17,11 @@ pkg_build_deps=(
   core/texinfo
 )
 pkg_deps=(
+<<<<<<< HEAD
   baggerspion/cairo/1.15.8/20171016143903  
+=======
+  baggerspion/cairo/1.15.8/20171016152551
+>>>>>>> a8742a631eaada69d3a5d104a64c90c065bff595
   baggerspion/tcl/8.6.7/20171015124251
   baggerspion/tk/8.6.7/20171015141639
   core/bzip2
