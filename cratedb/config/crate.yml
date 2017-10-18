@@ -18,3 +18,7 @@ discovery.zen.ping.unicast.hosts:
 {{#each svc.members ~}}
   - {{sys.ip}}
 {{/each}}
+
+path.data: {{pkg.svc_var_path}}/data
+path.logs: {{pkg.svc_var_path}}/logs
+blobs.path: {{pkg.svc_var_path}}/data/blobs
