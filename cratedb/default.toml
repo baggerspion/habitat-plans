@@ -1,0 +1,7 @@
+[license]
+enterprise = false
+
+[port]
+http = 4200
+transport = 4300
+postgres = 5432
