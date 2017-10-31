@@ -4,6 +4,8 @@
 #
 ####################################################################
 
+license.enterprise: {{cfg.license.enterprise}}
+
 {{#if cfg.cluster.name}}
   cluster.name: {{cfg.cluster.name}}
 {{/if}}
@@ -15,8 +17,9 @@
 {{/if ~}}
 
 discovery.zen.ping.unicast.hosts:
+
 {{#each svc.members ~}}
-  - {{sys.ip}}
+  - {{sys.ip}}:{{cfg.port.transport}}
 {{/each}}
 
 path.data: {{pkg.svc_var_path}}/data
