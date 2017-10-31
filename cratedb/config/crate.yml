@@ -17,7 +17,6 @@ license.enterprise: {{cfg.license.enterprise}}
 {{/if ~}}
 
 discovery.zen.ping.unicast.hosts:
-
 {{#each svc.members ~}}
   - {{sys.ip}}:{{cfg.port.transport}}
 {{/each}}
