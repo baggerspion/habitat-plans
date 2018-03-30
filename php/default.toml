@@ -1,11 +1,11 @@
-[fpm]
-daemonize = "no"
-ert = 0
-eri = 0
-pct = 0
-
-[www]
-bind = "0.0.0.0"
+bind = "127.0.0.1"
 port = 9000
-pm = "ondemand"
-max_children = 4
+local_only = true
+daemonize = "no"
+log_level = "notice"
+
+[pm]
+mode = "ondemand"
+max_children = 5
+timeout = "10s"
+requests = 500
